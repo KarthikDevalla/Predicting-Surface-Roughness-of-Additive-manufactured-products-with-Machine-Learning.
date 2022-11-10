@@ -6,7 +6,7 @@ from sklearn.ensemble import GradientBoostingRegressor
 import matplotlib.pyplot as plt
 
 # Reading the dataset and checking the data.
-df=pd.read_excel('data1.xlsx')
+df=pd.read_csv('data.csv')
 df.head()
 
 # Assigning independent and dependent varibles.
