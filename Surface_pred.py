@@ -83,3 +83,10 @@ print('The r2_score of the Gradient Boosting Regression model is:',r2_score(y2_t
 #From the above observation, the model performed better than the Linear 
 # Regression Model with an r2 score of 0.964 or the model explains 96.4% of 
 # the variance in the data.
+
+#Testing the model with new data.
+val=[['0.15','220','44','10','1']]
+model1.predict(val)
+# Here 0.015 refers to the layer_height, 220 to nozzle_temperature, 44 to 
+# print_speed, 10 to infill_density, and 1 being wall_thickness. The Surface 
+# roughness predicted is 28.87µm.
