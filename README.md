@@ -1,4 +1,6 @@
 # Predicting Surface Roughness of Additive manufactured products with Machine Learning.
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 
 3D printing or Additive Manufacturing is a promising digital manufacturing technique that produces 
 parts layer by layer. Although 3D printing technology has different methods, 
